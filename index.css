@@ -1,0 +1,36 @@
+.items-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 290px);
+    grid-gap: 18px 18px;
+    justify-content: center;
+  }
+.item-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px #808080 solid;
+}
+
+.item-card__name{
+    font-size: 14px;
+    width:270px;
+    align-self: center;
+    text-align: center;
+    height: 34px;
+}
+.item-card__image{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.item-card__price{
+    color: darkgreen;
+}
+.header__title{
+    margin: 25px auto 25px;
+    text-align: center;
+}
+.sort{
+    margin: 25px auto 25px;
+    text-align: center;
+}
